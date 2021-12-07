@@ -10,7 +10,7 @@ https://github.com/skamal13/discussion/blob/main/merge_sort.py
 Time Complexity works in O(n*log n). This is because the list is being split in log(n) calls and the merging process takes linear time in each call.
 
 ### 3) Space Complexity?
-Space complexity is always O(n). This is because the list have to store the elements in arrays.
+Space complexity is always O(n). This is because the list have to store the elements somewhere, in this case using arrays.
 
 ### 4) Advanced: Improvements on the algorithm? parallelize using multithreading/multiprocessing
 
