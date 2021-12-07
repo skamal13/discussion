@@ -2,9 +2,12 @@
 
 ## Merge Sort
 ### 1) Is your algorithm correct?
+The answer Yes. In theory, Merge Sort divides the array into two halves, recursively sorts them, and finally merges the two sorted halves. so in below code using those steps:
+https://github.com/skamal13/discussion/blob/main/merge_sort.py
+
 
 ### 2) Time Complexity?
-Time Complexity works in O(n.logn). This is because the list is being split in log(n) calls and the merging process takes linear time in each call.
+Time Complexity works in O(n*log n). This is because the list is being split in log(n) calls and the merging process takes linear time in each call.
 
 ### 3) Space Complexity?
 Space complexity is always O(n). This is because the list have to store the elements in arrays.
