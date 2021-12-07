@@ -19,7 +19,7 @@ Space complexity is always O(n). This is because the list have to store the elem
 ## Operating Systems and Systems Programming
 
 ### 1) B trees (B+ Trees) and their relation to data storage (Postgres)
-PostgreSQL B-Tree indexes are multi-level tree structures.
+PostgreSQL B-Tree indexes are multi-level tree structures. B-tree indexes can be used for equality and range queries efficiently.
 The command to add an index to a column is:
 CREATE INDEX name ON table USING btree (column);
 
