@@ -24,5 +24,11 @@ The command to add an index to a column is:
 CREATE INDEX name ON table USING btree (column);
 
 ### 2) A B tree vs hash table # range queries vs specific 1 element queries
+B-tree support range queries in Log(n), but in hash table range queries can result in a full table scan O(n) because indexs can access elements by their primary key in a hashtable. Hash Index really good for specific 1 element queries.
 
 ### 3) Postgres Indices
+according to postgreSQL documentation, there are 3 Index Types : B-tree, R-tree, and Hash.
+B-tree : CREATE INDEX name ON table USING btree (column);
+R-tree : CREATE INDEX name ON table USING RTREE (column);
+Hash : CREATE INDEX name ON table USING HASH (column);
+
