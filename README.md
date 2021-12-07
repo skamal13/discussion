@@ -13,6 +13,8 @@ Time Complexity works in O(n*log n). This is because the list is being split in 
 Space complexity is always O(n). This is because the list have to store the elements somewhere, in this case using arrays.
 
 ### 4) Advanced: Improvements on the algorithm? parallelize using multithreading/multiprocessing
+this is improvements multiprocessing using multiprocessing datatypes in python.
+https://github.com/skamal13/discussion/blob/main/merge_sort_multiprocessing.py
 
 ### 5) Advanced: What is the recurrence relation of this particular algorithm?
 
