@@ -4,6 +4,7 @@
 ### 1) Is your algorithm correct?
 
 ### 2) Time Complexity?
+The algorithm works in O(n.logn). This is because the list is being split in log(n) calls and the merging process takes linear time in each call.
 
 ### 3) Space Complexity?
 
