@@ -13,7 +13,7 @@ Time Complexity works in O(n*log n). This is because the list is being split in 
 Space complexity is always O(n). This is because the list have to store the elements somewhere, in this case using arrays.
 
 ### 4) Advanced: Improvements on the algorithm? parallelize using multithreading/multiprocessing
-this is improvements multiprocessing using multiprocessing datatypes in python.
+This is improvements multiprocessing using multiprocessing datatypes in python.
 https://github.com/skamal13/discussion/blob/main/merge_sort_multiprocessing.py
 
 ### 5) Advanced: What is the recurrence relation of this particular algorithm?
@@ -29,7 +29,7 @@ CREATE INDEX name ON table USING btree (column);
 B-tree support range queries in Log(n), but in hash table range queries can result in a full table scan O(n) because indexs can access elements by their primary key in a hashtable. Hash Index really good for specific 1 element queries.
 
 ### 3) Postgres Indices
-according to postgreSQL documentation, there are 3 Index Types : B-tree, R-tree, and Hash.
+According to postgreSQL documentation, there are 3 Index Types : B-tree, R-tree, and Hash.
 B-tree : CREATE INDEX name ON table USING btree (column);
 R-tree : CREATE INDEX name ON table USING RTREE (column);
 Hash : CREATE INDEX name ON table USING HASH (column);
